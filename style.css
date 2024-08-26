@@ -16,7 +16,7 @@ button {
 
 /* Hero Section */
 .hero {
-  height: 100vh;
+  height: 40vh;
   background: green;
   display: flex;
   justify-content: center;
@@ -27,7 +27,7 @@ button {
 
 .hero-content h1 {
   font-size: 4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 7rem;
   animation: fadeInDown 1s ease-out;
 }
 
@@ -121,11 +121,6 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.3s ease;
-}
-
-.add-to-cart:hover {
-  background-color: #23bb13;
-  transform: translateY(-2px);
 }
 
 /* Cart Icon */
