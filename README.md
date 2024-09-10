@@ -1,5 +1,5 @@
 Krishi Mitra
-Welcome to the Krishi Mitra project! This mobile application is designed to connect farmers directly with consumers and retailers, streamlining the process of buying and selling agricultural produce. Our goal is to reduce the dependence on intermediaries and enhance farmers' income potential.
+Welcome to the Krishi Mitra project! This mobile application is designed to connect farmers directly with consumers and retailers, streamlining the process of buying and selling agricultural produce. Our goal is to reduce dependence on intermediaries and enhance farmers' income potential.
 
 Features
 Produce Listings: Farmers can list their produce, including fertilizers, seeds, pesticides, and more.
