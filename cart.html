@@ -17,19 +17,16 @@
     </div>
     <script>
       document.addEventListener("DOMContentLoaded", () => {
-        // Get the cart from local storage, or start with an empty array
         const cart = JSON.parse(localStorage.getItem("cart")) || [];
-
-        // Calculate the total price of items in the cart
-        const total = cart.reduce((sum, item) => sum + item.price, 0);
-
-        // Display the cart items and the total price
         document.getElementById("cart-items").innerHTML = cart
           .map((item) => `<div>${item.name}: ₹${item.price}</div>`)
           .join("");
-        document.getElementById("cart-total").textContent = `Total: ₹${total}`;
+        document.getElementById("total-price").textContent = `₹${cart.reduce(
+          (sum, item) => sum + item.price,
+          0
+        )}`;
 
-        // Handle Buy button click, clear cart, and redirect to products page
+        // Handle buy button
         document.getElementById("buy-button").onclick = () => {
           alert("Purchased successfully!");
           localStorage.removeItem("cart");
