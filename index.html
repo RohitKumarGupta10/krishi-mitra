@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -5,6 +6,7 @@
     <title>Krishi Mitra</title>
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
     <!-- Navbar -->
     <nav class="navbar">
@@ -36,11 +38,10 @@
       <div class="about-content">
         <h2>About Us</h2>
         <p>
-          Krishi Mitra is dedicated to empowering farmers by directly connecting
-          them with consumers and retailers. Our platform helps reduce reliance
-          on middlemen, ensuring that farmers get a fair price for their
-          products, enhancing income opportunities and supporting sustainable
-          agriculture practices.
+          Krishi Mitra helps farmers by offering tools and equipment for rent.
+          We provide affordable and flexible rental options for everything from
+          tractors to harvesters. Our goal is to make farming easier and more
+          efficient, supporting you with the right tools for every season.
         </p>
       </div>
     </section>
@@ -49,172 +50,221 @@
     <section class="product" id="product">
       <div class="product-listing-container">
         <div id="cart-icon" class="cart-icon">🛒</div>
-        <h2>Products</h2>
-        <div class="product-grid">
-          <!-- Card 1 -->
-          <div class="product-card">
-            <div class="product-image">
-              <img src="" alt="Fertilizers" />
-            </div>
-            <div class="product-info">
-              <h3>Fertilizers</h3>
-              <p>Our fertilizers are eco-friendly and help in sustainable farming.</p>
-              <button
-                class="add-to-cart"
-                data-price="1000"
-                data-name="Fertilizers"
-              >
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <!-- Card 2 -->
-          <div class="product-card">
-            <div class="product-image">
-              <img src="path/to/seeds-image.jpg" alt="Seeds" />
-            </div>
-            <div class="product-info">
-              <h3>Seeds</h3>
-              <p>High-quality seeds for better germination and improved crop production.</p>
-              <button class="add-to-cart" data-price="1000" data-name="Seeds">
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <!-- Card 3 -->
-          <div class="product-card">
-            <div class="product-image">
-              <img src="path/to/pesticides-image.jpg" alt="Pesticides" />
-            </div>
-            <div class="product-info">
-              <h3>Pesticides</h3>
-              <p>Protect crops from pests and diseases for healthy, abundant produce.</p>
-              <button
-                class="add-to-cart"
-                data-price="1000"
-                data-name="Pesticides"
-              >
-                Add to Cart
-              </button>
-            </div>
-          </div>
-          <!-- Card 4 -->
-          <div class="product-card">
-            <div class="product-image">
-              <img
-                src="path/to/crop-insurance-image.jpg"
-                alt="Crop Insurance"
-              />
-            </div>
-            <div class="product-info">
-              <h3>Soil Amendments</h3>
-              <p>Boost soil health and water retention with our conditioners.</p>
-              <button
-                class="add-to-cart"
-                data-price="1000"
-                data-name="Soil Amendments"
-              >
-                Add to Cart
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Rent Farming Tools -->
-      <div class="product-listing-container">
         <h2>Rent Farming Tools</h2>
         <div class="product-grid">
           <!-- Card 1 -->
           <div class="product-card">
             <div class="product-image">
-              <img src="harvester.png" />
+              <img src="harvester.png" alt="Harvester" />
             </div>
             <div class="product-info">
               <h3>Harvester</h3>
-              <p>Rent a harvester for 1 day</p>
-              <p>₹1,000 - ₹2,500 /day</p>
-              <button class="add-to-cart" data-price="1000">Add to Cart</button>
+              <p>Efficiently harvest crops with our reliable harvester.</p>
+              <p style="color: green">₹1,000 - ₹2,500 / day</p>
+              <button
+                class="add-to-cart"
+                data-name="Harvester"
+                data-price="1000"
+              >
+                Add to Cart
+              </button>
             </div>
           </div>
           <!-- Card 2 -->
           <div class="product-card">
             <div class="product-image">
-              <img src="tractor.png" />
+              <img src="tractor.png" alt="Tractor" />
             </div>
             <div class="product-info">
               <h3>Tractor</h3>
-              <p>Rent a tractor for 1 day</p>
-              <p>₹3,000 - ₹6,000 /day</p>
-              <button class="add-to-cart" data-price="3000">Add to Cart</button>
+              <p>Versatile tractor for all your fieldwork needs.</p>
+              <p style="color: green">₹3,000 - ₹6,000 / day</p>
+              <button class="add-to-cart" data-name="Tractor" data-price="3000">
+                Add to Cart
+              </button>
             </div>
           </div>
           <!-- Card 3 -->
           <div class="product-card">
             <div class="product-image">
-              <img src="cultivator.png" />
+              <img src="cultivator.png" alt="Cultivator" />
             </div>
             <div class="product-info">
               <h3>Cultivator</h3>
-              <p>Rent a cultivator for 1 day</p>
-              <p>₹3,000 - ₹6,000 /day</p>
-              <button class="add-to-cart" data-price="3000">Add to Cart</button>
+              <p>Prepare your soil efficiently with our cultivator.</p>
+              <p style="color: green">₹3,000 - ₹6,000 / day</p>
+              <button
+                class="add-to-cart"
+                data-name="Cultivator"
+                data-price="3000"
+              >
+                Add to Cart
+              </button>
             </div>
           </div>
           <!-- Card 4 -->
           <div class="product-card">
             <div class="product-image">
-              <img src="seed-drill.png" />
+              <img src="seed-drill.png" alt="Seed Drill" />
             </div>
             <div class="product-info">
               <h3>Seed Drill</h3>
-              <p>Description of seed drill</p>
-              <p>₹1,599</p>
-              <button class="add-to-cart" data-price="1599">Add to Cart</button>
+              <p>Sow seeds accurately and efficiently with our seed drill.</p>
+              <p style="color: green">₹1,599 / day</p>
+              <button
+                class="add-to-cart"
+                data-name="Seed Drill"
+                data-price="1599"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <!-- Card 5 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="plough.png" alt="Plough" />
+            </div>
+            <div class="product-info">
+              <h3>Plough</h3>
+              <p>Prepare your field with our durable Plough.</p>
+              <p style="color: green">₹1,000 - ₹2,500 / day</p>
+              <button class="add-to-cart" data-name="Plow" data-price="1000">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <!-- Card 6 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="irrigation-system.png" alt="Irrigation System" />
+            </div>
+            <div class="product-info">
+              <h3>Irrigation System</h3>
+              <p>Efficient irrigation solutions for better water management.</p>
+              <p style="color: green">₹3,000 - ₹6,000 / day</p>
+              <button
+                class="add-to-cart"
+                data-name="Irrigation System"
+                data-price="3000"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <!-- Card 7 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="sprayer.png" alt="Sprayer" />
+            </div>
+            <div class="product-info">
+              <h3>Sprayer</h3>
+              <p>Apply fertilizers and pesticides easily with our sprayer.</p>
+              <p style="color: green">₹1,500 - ₹3,000 / day</p>
+              <button class="add-to-cart" data-name="Sprayer" data-price="1500">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <!-- Card 8 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="thresher.png" alt="Thresher" />
+            </div>
+            <div class="product-info">
+              <h3>Thresher</h3>
+              <p>Separate grains efficiently with our thresher.</p>
+              <p style="color: green">₹2,000 - ₹4,000 / day</p>
+              <button
+                class="add-to-cart"
+                data-name="Thresher"
+                data-price="2000"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <!-- Card 9 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="fertilizer.png" alt="Fertilizers" />
+            </div>
+            <div class="product-info">
+              <h3>Fertilizers</h3>
+              <p>
+                Our fertilizers are eco-friendly and help in sustainable
+                farming.
+              </p>
+              <p style="color: green">₹50 - ₹100 per day</p>
+              <button
+                class="add-to-cart"
+                data-name="Fertilizers"
+                data-price="1000"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <!-- Card 10 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="seeds.png" alt="Seeds" />
+            </div>
+            <div class="product-info">
+              <h3>Seeds</h3>
+              <p>
+                High-quality seeds for better germination and improved crop
+                production.
+              </p>
+              <p style="color: green">₹30 - ₹60 per day</p>
+              <button class="add-to-cart" data-name="Seeds" data-price="1000">
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <!-- Card 11 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="pesticides.png" alt="Pesticides" />
+            </div>
+            <div class="product-info">
+              <h3>Pesticides</h3>
+              <p>
+                Protect crops from pests and diseases for healthy, abundant
+                produce.
+              </p>
+              <p style="color: green">₹50 - ₹100 per day</p>
+              <button
+                class="add-to-cart"
+                data-name="Pesticides"
+                data-price="1000"
+              >
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <!-- Card 12 -->
+          <div class="product-card">
+            <div class="product-image">
+              <img src="soil-amendments.png" alt="Soil Amendments" />
+            </div>
+            <div class="product-info">
+              <h3>Soil Amendments</h3>
+              <p>
+                Boost soil health and water retention with our conditioners.
+              </p>
+              <p style="color: green">₹40 - ₹80 per day</p>
+              <button
+                class="add-to-cart"
+                data-name="Soil Amendments"
+                data-price="1000"
+              >
+                Add to Cart
+              </button>
             </div>
           </div>
         </div>
       </div>
-<!--Insurance Section-->
-      <div class="product-listing-container">
-        <h2>Insurance</h2>
-        <div class="product-grid">
-          <!-- Card 1 -->
-          <div class="product-card">
-            <div class="product-image">
-              <img src="insurance.png" />
-            </div>
-            <div class="product-info">
-              <h3>Basic Crop Insurance</h3>
-              <p>Coverage for common weather risks and pests for small farmers.</p>
-              <p style="color: green;">₹500/year</p>
-              <button class="add-to-cart" data-price="1000">Apply Now</button>
-            </div>
-          </div>
-          <!-- Card 2 -->
-          <div class="product-card">
-            <div class="product-image">
-              <img src="insurance 2.png" />
-            </div>
-            <div class="product-info">
-              <h3>Comprehensive Crop Insurance</h3>
-              <p>Includes protection against floods, droughts and pests for larger farms.</p>
-              <p style="color: green;">₹1,500/year</p>
-              <button class="add-to-cart" data-price="3000">Apply Now</button>
-            </div>
-          </div>
-          <!-- Card 3 -->
-          <div class="product-card">
-            <div class="product-image">
-              <img src="insurance 3.png" />
-            </div>
-            <div class="product-info">
-              <h3>Premium Crop Insurance</h3>
-              <p>Full coverage for all risks, including market price fluctuations.</p>
-              <p style="color: green;">₹2,000/year</p>
-              <button class="add-to-cart" data-price="3000">Apply Now</button>
-            </div>
-
     </section>
 
     <!-- Contact Section -->
@@ -224,13 +274,13 @@
         <p>
           If you have any questions or need support, feel free to reach out to
           us:
-      
-        Email: support@krishimitra.com<br>
-        Phone: +91-909090900<br>
-        Address: krishimitra, AgriTech Park, Lohegaon, Pune, Maharashtra 411045
-      </p>
+          <br />Email: support@krishimitra.com<br />
+          Phone: +91-909090900<br />
+          Address: Krishi Mitra, AgriTech Park, Lohegaon, Pune, Maharashtra
+          411045
+        </p>
       </div>
-    </section><br>
+    </section>
 
     <script src="script.js"></script>
   </body>
