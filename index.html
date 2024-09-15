@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Krishi Mitra</title>
     <link rel="stylesheet" href="style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body>
@@ -27,14 +28,14 @@
     </nav>
 
     <!-- Home Section -->
-    <section class="home" id="home">
+    <section class="home" id="home" data-aos="fade-up" data-aos-duration="1000">
       <div class="home-content">
         <h1>Welcome to Krishi Mitra</h1>
       </div>
     </section>
 
     <!-- About Section -->
-    <section class="about" id="about">
+    <section class="about" id="about" data-aos="fade-up" data-aos-duration="1000">
       <div class="about-content">
         <h2>About Us</h2>
         <p>
@@ -47,7 +48,7 @@
     </section>
 
     <!-- Products Section -->
-    <section class="product" id="product">
+    <section class="product" id="product" data-aos="fade-up" data-aos-duration="1000">
       <div class="product-listing-container">
         <div id="cart-icon" class="cart-icon">🛒</div>
         <h2>Rent Farming Tools</h2>
@@ -268,7 +269,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact" id="contact">
+    <section class="contact" id="contact" data-aos="fade-up" data-aos-duration="1000">
       <div class="contact-content">
         <h2>Contact Us</h2>
         <p>
@@ -283,5 +284,9 @@
     </section>
 
     <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   </body>
 </html>
