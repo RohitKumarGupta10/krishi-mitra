@@ -5,24 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Krishi Mitra</title>
     <link rel="stylesheet" href="style.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
   <body>
     <!-- Navbar -->
     <nav class="navbar">
       <div class="nav-container">
-        <a href="#home" class="logo">Krishi Mitra</a>
+        <a href="#home" class="logo"><i class="fa fa-leaf"></i> Krishi Mitra</a>
         <div class="hamburger" id="hamburger-menu">
           <div class="bar"></div>
           <div class="bar"></div>
           <div class="bar"></div>
         </div>
         <ul class="nav-list" id="nav-list">
-          <li class="nav-item"><a href="#home">Home</a></li>
-          <li class="nav-item"><a href="#about">About</a></li>
-          <li class="nav-item"><a href="#product">Product</a></li>
-          <li class="nav-item"><a href="#contact">Contact</a></li>
+          <li class="nav-item">
+            <a href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about"><i class="fa fa-fw fa-info-circle"></i> About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#product"><i class="fa fa-fw fa-shopping-basket"></i> Product</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+          </li>
         </ul>
       </div>
     </nav>
@@ -30,14 +42,14 @@
     <!-- Home Section -->
     <section class="home" id="home" data-aos="fade-up" data-aos-duration="1000">
       <div class="home-content">
-        <h1>Welcome to Krishi Mitra</h1>
+        <h1><i class="fa fa-handshake-o"></i> Welcome to Krishi Mitra</h1>
       </div>
     </section>
 
     <!-- About Section -->
     <section class="about" id="about" data-aos="fade-up" data-aos-duration="1000">
       <div class="about-content">
-        <h2>About Us</h2>
+        <h2><i class="fa fa-users"></i> About Us</h2>
         <p>
           Krishi Mitra helps farmers by offering tools and equipment for rent.
           We provide affordable and flexible rental options for everything from
@@ -50,8 +62,10 @@
     <!-- Products Section -->
     <section class="product" id="product" data-aos="fade-up" data-aos-duration="1000">
       <div class="product-listing-container">
-        <div id="cart-icon" class="cart-icon">🛒</div>
-        <h2>Rent Farming Tools</h2>
+        <div id="cart-icon" class="cart-icon">
+          <i class="fa fa-shopping-cart"></i>
+        </div>
+        <h2><i class="fa fa-truck"></i> Rent Farming Tools</h2>
         <div class="product-grid">
           <!-- Card 1 -->
           <div class="product-card">
@@ -267,26 +281,29 @@
         </div>
       </div>
     </section>
+        </div>
+      </div>
+    </section>
 
     <!-- Contact Section -->
     <section class="contact" id="contact" data-aos="fade-up" data-aos-duration="1000">
       <div class="contact-content">
-        <h2>Contact Us</h2>
+        <h2><i class="fa fa-phone"></i> Contact Us</h2>
         <p>
           If you have any questions or need support, feel free to reach out to
           us:
-          <br />Email: support@krishimitra.com<br />
-          Phone: +91-909090900<br />
-          Address: Krishi Mitra, AgriTech Park, Lohegaon, Pune, Maharashtra
-          411045
+          <br />Email: <i class="fa fa-envelope"></i> support@krishimitra.com<br />
+          Phone: <i class="fa fa-phone"></i> +91-909090900<br />
+          Address: <i class="fa fa-map-marker"></i> Krishi Mitra, AgriTech Park,
+          Lohegaon, Pune, Maharashtra 411045
         </p>
       </div>
     </section>
 
     <script src="script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <script>
-    AOS.init();
-  </script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
