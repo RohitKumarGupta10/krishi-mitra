@@ -42,7 +42,3 @@ Contributing
 
 If you want to contribute, feel free to fork this repository and submit a pull request.
 
-License
-
-This project is open-source and free to use.
-
